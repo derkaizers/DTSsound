@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Economica|Nunito+Sans" rel="stylesheet">
+    <title>Document</title>
+    <style>
+    .leftside {
+            margin-left: -80px;
+            position: fixed;
+            bottom: 0;
+            background: grey;
+            width: 45.5%;
+            height: 100%;
+            padding: 20px;
+            padding-top: 10%;
+            text-align: right;
+            transform: skewX(-10deg);
+            }
+    .rightside{
+        width: 10%;
+        height: 1000px;
+        float: right;
+        margin-right: 5px;
+        margin-left:300px;
+        margin-top: 400px;
+        background: transparent;    
+    }
+    body{
+      margin: 0;
+    }
+    .play{
+        position: fixed;
+        left:25%;
+        top: 0%;
+        min-width: 20%;
+        min-height: 100%;
+        max-height: 100%;
+        background-size: cover;
+        transition: 1s;
+        z-index: -999; 
+    
+    }
+    h3 {
+        font-size: small;
+    }
+    </style>
+</head>
+<body>  
+        <video autoplay loop class="play" controls>
+                <source src="DTS.mp4" type="video/mp4" >
+        </video>
+        <div class="leftside"> 
+            <h1>DTS-HD Master Audio</h1>
+            <h3><img src="dts.svg"></h3>
+            <h3><p>A combined lossless/lossy audio codec created by 
+                <p>DTS (formerly Digital Theater Systems), 
+                <p>commonly used for surround-sound movie soundtracks on Blu-ray Disc</h3>
+        </div>
+        <div class="rightside">
+                <a href="https://www.facebook.com/DTS.Inc/" target="_blank"><i class="fab fa-facebook fa-3x"></i></a><br><br>
+                <a href="https://www.instagram.com/dts/" target="_blank"><i class="fab fa-instagram fa-3x"></i></a><br><br>
+                <a href="https://www.linkedin.com/showcase/dts-inc." target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+        </div>
+</body>
+</html>
